@@ -1,0 +1,17 @@
+.mainFirst {
+  //position: absolute;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 586px;
+  background: #F5F5F5;
+  background-image: url("../../../common/img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  border: 2px solid red;
+
+  .descriptionsContainer {
+    display: flex;
+    margin: 7% 0 0 4%;
+  }
+}
