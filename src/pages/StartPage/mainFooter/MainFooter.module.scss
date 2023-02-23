@@ -1,0 +1,26 @@
+.footerContainer {
+  margin: 12vh 0 0 2.5vw;
+  display: flex;
+  width: 20vw;
+  justify-content: space-evenly;
+
+  @media screen and (min-width: 1281px) {
+    margin: 12vh 0 0 8.5vw;
+  }
+  @media screen and (min-width: 1700px) {
+    margin: 12vh 0 0 17.5vw;
+  }
+
+  .ScDescription {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+  }
+
+  .SC {
+    cursor: pointer;
+  }
+}

@@ -1,12 +1,14 @@
 import React from "react";
 import styles from "./MainPage.module.scss"
-import {FirstPage} from "./firstPage/FirstPage";
+import {StartPage} from "../StartPage/StartPage";
+import {PopularCars} from "../PopularCars/PopularCars";
 
 export const MainPage = () => {
 
     return (
         <div className={styles.mainFrame} >
-            <FirstPage/>
+            <StartPage/>
+            <PopularCars/>
         </div >
     )
 }

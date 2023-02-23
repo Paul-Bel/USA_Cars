@@ -1,0 +1,16 @@
+.button {
+  width: 39.1px;
+  height: 39.1px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #F62C2F;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  &:hover{
+    background-color: orange;
+  }
+  &:active{
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+  }
+}

@@ -1,0 +1,43 @@
+.PopularCarsContainer {
+  background: #FDFDFD;
+  //width: 1280px;
+  height: 775px;
+
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10.5%;
+
+    .lineDescr {
+      background-image: url("../../common/img/LinePopularCars.png");
+      width: 80px;
+      height: 6px;
+
+    }
+
+    .headerPage {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #333333;
+      margin: 0 30px 0 30px;
+
+    }
+  }
+
+  .brandsGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+    .img {
+      width: 120px;
+      margin: 0 29px;
+    }
+  }
+}

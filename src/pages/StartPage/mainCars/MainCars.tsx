@@ -1,14 +1,14 @@
 import styles from './MainCars.module.scss'
 
-import Tesla from '../../../../common/img/cars/6.png'
-import DodgeRam from '../../../../common/img/cars/8.png'
-import Porsche from '../../../../common/img/cars/1.png'
-import Jeep from '../../../../common/img/cars/2.png'
-import Ford from '../../../../common/img/cars/3.png'
-import RAM from '../../../../common/img/cars/5.png'
-import Ar_L from '../../../../common/img/Arrow/Arrow_L.png'
-import Ar_R from '../../../../common/img/Arrow/Arrow_R.png'
+import Tesla from '../../../common/img/cars/6.png'
+import DodgeRam from '../../../common/img/cars/8.png'
+import Porsche from '../../../common/img/cars/1.png'
+import Jeep from '../../../common/img/cars/2.png'
+import Ford from '../../../common/img/cars/3.png'
+import RAM from '../../../common/img/cars/5.png'
+
 import {useState} from "react";
+import {ButtonRound} from "../../../components/ButtonRound";
 
 type CarsType = [string, string, number]
 
@@ -52,27 +52,29 @@ export const MainCars = () => {
         <div className={styles.carsMain} >
             <div
                 className={styles.img}
-                style={{backgroundImage: `url(${cars[0]})`, top: '-4vh', left: '12vh'}
+                style={{
+                    backgroundImage: `url(${cars[0]})`,
+                    top: '-4vh',
+                    left: '16vh',
+                }
                 } />
             <div
                 className={styles.img}
                 style={{
                     backgroundImage: `url(${cars[1]})`,
-                    left: '34vh', top: '-2vh',
+                    left: '46vh',
+                    top: '-1vh',
                 }} >
 
                 <div className={styles.buttonGroup} >
-                    <button
-                        className={styles.button}
-                        style={{backgroundImage: `url(${Ar_L})`}}
-                        onClick={changeCarsDown}
-
+                    <ButtonRound
+                        callBack={changeCarsDown}
+                        arrow={'L'}
                     />
                     <span className={styles.count} >{cars[2] - 1}/{lengthPage}</span >
-                    <button
-                        className={styles.button}
-                        style={{backgroundImage: `url(${Ar_R})`}}
-                        onClick={changeCarsUp}
+                    <ButtonRound
+                        callBack={changeCarsUp}
+                        arrow={'R'}
                     />
                 </div >
             </div >
