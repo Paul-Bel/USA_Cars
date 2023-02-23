@@ -1,0 +1,88 @@
+.carsMain {
+  display: flex;
+  position: relative;
+
+  & :nth-child(2) {
+    @media screen and (max-width: 800px) {
+      left: 12vh !important;
+    }
+  }
+  & :nth-child(2) {
+    @media screen and (max-width: 420px) {
+      left: 7vh !important;
+    }
+  }
+  & :nth-child(2) {
+    @media screen and (max-width: 350px) {
+      left: 5vh !important;
+    }
+  }
+  & :nth-child(1) {
+    @media screen and (max-width: 800px) {
+      left: 2vh !important;
+    }
+  }
+  & :nth-child(1) {
+      max-width: 450px !important;
+
+  }
+  .img {
+    width: 47vw;
+    height: 35vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    max-width: 587px;
+
+    .buttonGroup {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 34vh;
+      left: 53%;
+      @media screen and (max-width: 1200px) {
+        left: 40%
+      }
+      @media screen and (max-width: 1120px) {
+        top: 32vh;
+        left: 25%
+      }
+      @media screen and (max-width: 900px) {
+        top: 32vh;
+        left: 10%
+      }
+      @media screen and (max-width: 800px) {
+        top: 28vh;
+        left: -20%
+      }
+      @media screen and (max-width: 800px) {
+        top: 28vh;
+        left: -20%
+      }
+      .count {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #333333;
+        margin: 0 10px 0 10px;
+      }
+
+      .button {
+        width: 39.1px;
+        height: 39.1px;
+        border-radius: 50%;
+
+        background-position: center;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: 1px solid #F62C2F;
+        background-repeat: no-repeat;
+      }
+    }
+
+  }
+
+}

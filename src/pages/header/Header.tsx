@@ -25,9 +25,10 @@ export const Header = () => {
                 {navNames.map((el, i) => {
                     return (
                         <NavLink
+                            key={i}
                             to={'/'}
                             onClick={() => changeNav(el.name)}
-                            className={el.name != navName ?
+                            className={el.name !== navName ?
                                 styles.headerText :
                                 styles.headerText + ' ' + styles.activeNav} >
                             {el.name}
