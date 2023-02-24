@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
-
+  margin-left: 13px;
   .img {
     width: 310px;
   }
@@ -86,5 +86,9 @@
     background: #FFFFFF;
     box-shadow: 0 24px 44px 2px rgba(0, 0, 0, 0.2);
     margin: 0 0 23px 12px;
+    cursor: pointer;
+    &:active{
+      border: #2B8AFB;
+    }
   }
 }

@@ -27,9 +27,9 @@
 
   }
   .img {
-    width: 47vw;
-    height: 44vh;
-    background-size: 100%;
+    width: 38vw;
+    height: 38vh;
+    background-size: 88%;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -39,29 +39,29 @@
       display: flex;
       align-items: center;
       position: absolute;
-      top: 38vh;
-      left: 34%;
+      top: 33vh;
+      left: 10vw;
       @media screen and (min-width: 1288px) {
-        left: 30%
+        //left: 30%
       }
       @media screen and (max-width: 1200px) {
-        left: 25%
+        //left: 25%
       }
       @media screen and (max-width: 1120px) {
-        top: 32vh;
-        left: 0;
+        //top: 32vh;
+        //left: 0;
       }
       @media screen and (max-width: 900px) {
-        top: 32vh;
-        left: -15%
+        //top: 32vh;
+        //left: -15%
       }
       @media screen and (max-width: 800px) {
-        top: 28vh;
-        left: -40%
+        //top: 28vh;
+        //left: -40%
       }
       @media screen and (max-width: 800px) {
-        top: 28vh;
-        left: -55%
+        //top: 28vh;
+        //left: -55%
       }
       .count {
         font-family: 'Roboto', sans-serif;

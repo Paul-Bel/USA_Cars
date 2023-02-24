@@ -26,7 +26,6 @@ const chooseCars = [
 export const PopularCars = () => {
 
     return (
-
         <div className={styles.PopularCarsContainer} >
             <span className={styles.headerContainer} >
             <div className={styles.lineDescr} />
@@ -46,29 +45,25 @@ export const PopularCars = () => {
                     callBack={() => {
                     }} arrow={'R'} />
             </div >
+            <div className={styles.cardContainer} >
+                <CardCar
+                    nameCar={chooseCars[0].name}
+                    imgCar={CardCar2}
+                />
+                <CardCar
+                    nameCar={chooseCars[1].name}
+                    imgCar={CardCar1}
+                />
+                <CardCar
+                    nameCar={chooseCars[3].name}
+                    imgCar={CardCar3}
+                />
+                <CardCar
+                    nameCar={chooseCars[2].name}
+                    imgCar={CardCar4}
+                />
 
-            <CardCar
-                nameCar={chooseCars[0].name}
-                imgCar={CardCar2}
-            />
-                        <CardCar
-                nameCar={chooseCars[0].name}
-                imgCar={CardCar2}
-            />
-                        <CardCar
-                nameCar={chooseCars[0].name}
-                imgCar={CardCar2}
-            />
-                        <CardCar
-                nameCar={chooseCars[0].name}
-                imgCar={CardCar2}
-            />
-
-
-
-
-
-
+            </div >
             <div className={styles.buttonGroup} >
                 <ButtonRound
                     callBack={() => {

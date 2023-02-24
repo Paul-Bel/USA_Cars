@@ -1,7 +1,9 @@
 .PopularCarsContainer {
   background: #FDFDFD;
-  //width: 1280px;
   height: 775px;
+  background-image: url("../../common/img/Footer2.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
 
   .headerContainer {
     display: flex;
@@ -38,6 +40,29 @@
     .img {
       width: 120px;
       margin: 0 29px;
+    }
+  }
+
+  .cardContainer {
+    display: flex;
+    margin: 2vh 0 0 11.5vw;
+  }
+
+  .buttonGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5vh;
+    @media screen and (min-width: 1281px) {
+      margin-top: -4.5vh;
+    }
+
+    & :nth-child(1) {
+      margin: 0 5px 0 23px;
+    }
+
+    & :nth-child(3) {
+      margin-left: 7px;
     }
   }
 }

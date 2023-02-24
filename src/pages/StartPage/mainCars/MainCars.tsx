@@ -62,7 +62,7 @@ export const MainCars = () => {
                 className={styles.img}
                 style={{
                     backgroundImage: `url(${cars[1]})`,
-                    left: '46vh',
+                    left: '29vw',
                     top: '-1vh',
                 }} >
 
