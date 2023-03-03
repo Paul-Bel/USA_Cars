@@ -1,17 +1,13 @@
 import {NavLink} from "react-router-dom";
-import {useState} from "react";
+import {navigate} from "../../common/variablesData/nav";
 
-import styles from './Header.module.scss'
+import {useState} from "react";
 import logo from '../../common/img/Logo.png'
 import phone from '../../common/img/PhoneVector.png'
 
-const navNames: Array<{ name: string }> = [
-    {name: 'Главная'},
-    {name: 'Каталог'},
-    {name: 'О нас'},
-    {name: 'Контакты'},
-]
+import styles from './Header.module.scss'
 
+const navNames: Array<{ name: string }> = navigate
 
 export const Header = () => {
 
