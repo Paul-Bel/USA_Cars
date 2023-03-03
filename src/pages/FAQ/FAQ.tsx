@@ -37,9 +37,9 @@ export const FAQ = () => {
                 <span >Не нашли нужного ответа ?</span >
                 <div className={styles.sc} >
                     <span >Задайте свой вопрос нашим экспертам</span >
-                    <a href="#" ><img src={WS} alt="WS" /></a >
-                    <a href="#" ><img src={VB} alt="VB" /></a >
-                    <a href="#" ><img src={TG} alt="TG" /></a >
+                    <a href="#1" ><img src={WS} alt="WS" /></a >
+                    <a href="#1" ><img src={VB} alt="VB" /></a >
+                    <a href="#1" ><img src={TG} alt="TG" /></a >
 
                 </div >
 

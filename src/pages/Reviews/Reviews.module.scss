@@ -1,0 +1,63 @@
+.reviewsContainer {
+  height: 77vh;
+  background: #FFFFFF;
+  background-image: url("../../common/img/reviewsBottom.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
+
+  .title {
+    margin-top: 4.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & :nth-child(2) {
+      margin: 0 10px;
+    }
+
+    & span {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #333333;
+    }
+
+    .line {
+      width: 80px;
+      height: 6px;
+      background: #F62C2F;
+    }
+  }
+
+  .screens {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+  }
+
+  .paginator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5vh;
+    @media screen and (min-width: 1281px) {
+      margin-top: -4.5vh;
+    }
+
+    & :nth-child(1) {
+      margin: 0 5px 0 23px;
+    }
+
+    & :nth-child(3) {
+      margin-left: 7px;
+    }
+
+    .count {
+      color: #FFFFFF;
+    }
+  }
+}
