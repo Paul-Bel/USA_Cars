@@ -1,16 +1,16 @@
 import {ButtonRound} from "../../components/ButtonRound";
 
-import Tesla from '../../common/img/MakeCars/Tesla.png'
-import Lexus from '../../common/img/MakeCars/Lexus.png'
-import Toyota from '../../common/img/MakeCars/Toyota.png'
-import Ford from '../../common/img/MakeCars/Ford.png'
-import Honda from '../../common/img/MakeCars/Honda.png'
+import Tesla from '../../common/img/makeCars/Tesla.png'
+import Lexus from '../../common/img/makeCars/Lexus.png'
+import Toyota from '../../common/img/makeCars/Toyota.png'
+import Ford from '../../common/img/makeCars/Ford.png'
+import Honda from '../../common/img/makeCars/Honda.png'
 
-import CardCar1 from '../../common/img/CarsForCard/1.png'
-import CardCar2 from '../../common/img/CarsForCard/2.png'
-import CardCar3 from '../../common/img/CarsForCard/3.png'
-import CardCar4 from '../../common/img/CarsForCard/4.png'
-import CardCar5 from '../../common/img/CarsForCard/5.png'
+import CardCar1 from '../../common/img/carsForCard/1.png'
+import CardCar2 from '../../common/img/carsForCard/2.png'
+import CardCar3 from '../../common/img/carsForCard/3.png'
+import CardCar4 from '../../common/img/carsForCard/4.png'
+import CardCar5 from '../../common/img/carsForCard/5.png'
 
 import styles from './PopularCars.module.scss'
 import {CardCar} from "./CardCar/CardCar";

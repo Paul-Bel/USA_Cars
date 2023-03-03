@@ -1,9 +1,12 @@
-import React from "react";
-import styles from "./MainPage.module.scss"
+
 import {StartPage} from "../StartPage/StartPage";
 import {PopularCars} from "../PopularCars/PopularCars";
 import {CallBackPage} from "../CallBackPage/CallBackPage";
 import {AboutUs} from "../AboutUs/AboutUs";
+import {Auctions} from "../Auctions/Auctions";
+
+import styles from "./MainPage.module.scss"
+import {FAQ} from "../FAQ/FAQ";
 
 export const MainPage = () => {
 
@@ -13,6 +16,8 @@ export const MainPage = () => {
             <PopularCars/>
             <CallBackPage/>
             <AboutUs/>
+            <Auctions/>
+            <FAQ/>
         </div >
     )
 }

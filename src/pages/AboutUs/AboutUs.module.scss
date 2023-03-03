@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  margin-top: 5%;
 
   .activeBlock {
     display: flex;
@@ -16,13 +17,14 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      padding: 9% 0 0 4%;
+      padding: 0 0 0 4%;
 
       .titleContainer {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         width: 42%;
+
         .title {
           font-family: 'Montserrat', sans-serif;
           font-style: normal;
@@ -52,10 +54,10 @@
       align-items: center;
       width: 50%;
       height: 378px;
-      margin-top: 5%;
+      margin-top: -4%;
 
       .backgroundLeft {
-        background-image: url("../../common/img/Video/Dots.png");
+        background-image: url("../../common/img/video/Dots.png");
         background-size: cover;
         background-repeat: no-repeat;
         width: 73px;
@@ -71,10 +73,11 @@
         height: 269px;
         border-radius: 6px;
         margin: 11% 0 0 10.5%;
+        cursor: pointer;
       }
 
       .backgroundRight {
-        background-image: url("../../common/img/Video/Ellipse.png");
+        background-image: url("../../common/img/video/Ellipse.png");
         background-size: cover;
         background-repeat: no-repeat;
         min-width: 378px;
@@ -93,8 +96,11 @@
     box-shadow: 0 25px 45px 1px rgba(224, 92, 92, 0.2);
     margin: 10% 0 0 4%;
     max-width: 1180px;
+
     .descriptionItem {
       padding: 0 0 0 4.5%;
+      display: flex;
+      align-items: center;
       .paragraph {
         display: inline-block;
         width: 8px;

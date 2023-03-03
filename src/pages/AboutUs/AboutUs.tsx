@@ -1,4 +1,4 @@
-import video from '../../common/img/Video/Video.png'
+import video from '../../common/img/video/Video.png'
 
 import styles from './AboutUs.module.scss'
 
@@ -35,19 +35,33 @@ export const AboutUs = () => {
             <div className={styles.descriptions} >
                 <p className={styles.descriptionItem} >
                     <span className={styles.paragraph} />
-                    <b >Работаем без посредников</b > и экономим ваш бюджет;</p >
+                    <span >
+                    <b >Работаем без посредников</b >
+                    и экономим ваш бюджет;
+                </span >
+                </p >
                 <p className={styles.descriptionItem} >
                     <span className={styles.paragraph} />
-                    <b >Имеем все необходимые лицензии</b > для работы с аукционами Copart, IAAI, Manheim, ADESA.</p >
+                    <span >
+                        <b >Имеем все необходимые лицензии </b >
+                        для работы с аукционами Copart, IAAI, Manheim, ADESA.
+                    </span >
+                </p >
+                <p className={styles.descriptionItem} >
+                <span >
+                    <span className={styles.paragraph} />
+                    <b >Физическое нахождение в США </b >
+                    позволяет нам осуществить осмотр и оценить автомобиль до покупки.
+                </span >
+                </p >
                 <p className={styles.descriptionItem} >
                     <span className={styles.paragraph} />
-                    <b >Физическое нахождение в США</b > позволяет нам осуществить осмотр и оценить автомобиль до
-                    покупки.</p >
-                <p className={styles.descriptionItem} >
-                    <span className={styles.paragraph} />
+                    <span >
                     <b >Широкий спектр дополнительных услуг:</b > подготовка автомобиля к отправке, укомплектовка
                     запасными частями
-                    и оборудованием, ремонт, а также страхование груза, если Вам это необходимо. </p >
+                    и оборудованием, ремонт, а также страхование груза, если Вам это необходимо.
+                </span >
+                </p >
                 <p className={styles.descriptionItem} >
                     <span className={styles.paragraph} />
                     <b >Индивидуальный подход к каждому клиенту,</b > при покупке нового авто или автомобиля с пробегом.
