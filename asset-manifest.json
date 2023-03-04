@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Paul-Bel/static/css/main.b0813d82.css",
+    "main.js": "/Paul-Bel/static/js/main.f62e59a5.js",
+    "static/js/787.121a0e85.chunk.js": "/Paul-Bel/static/js/787.121a0e85.chunk.js",
+    "static/media/8.png": "/Paul-Bel/static/media/8.024c2c35560c610fcdb6.png",
+    "static/media/reviewsBottom.png": "/Paul-Bel/static/media/reviewsBottom.f8f8fd2ee22eda6d496f.png",
+    "static/media/Footer2.png": "/Paul-Bel/static/media/Footer2.efeac55a8a3230aebd76.png",
+    "static/media/Video.png": "/Paul-Bel/static/media/Video.270110f3914c7839697c.png",
+    "static/media/1.png": "/Paul-Bel/static/media/1.27822291e7c96fa2223e.png",
+    "static/media/Rectangle.png": "/Paul-Bel/static/media/Rectangle.3cbf4a1a6bd7a6f8b7c1.png",
+    "static/media/5.png": "/Paul-Bel/static/media/5.f47850031060f73ce03f.png",
+    "static/media/Reviews2.png": "/Paul-Bel/static/media/Reviews2.df0c649fec77b6535ac1.png",
+    "static/media/Reviews1.png": "/Paul-Bel/static/media/Reviews1.8081d2654b45578658b9.png",
+    "static/media/Reviews3.png": "/Paul-Bel/static/media/Reviews3.d3a01290579b19c7f71d.png",
+    "static/media/6.png": "/Paul-Bel/static/media/6.906467f208936406e5bd.png",
+    "static/media/2.png": "/Paul-Bel/static/media/2.f47850031060f73ce03f.png",
+    "static/media/Reviews4.png": "/Paul-Bel/static/media/Reviews4.b39cd7f5e0f668cb4709.png",
+    "static/media/3.png": "/Paul-Bel/static/media/3.cb9e3eca939834486b97.png",
+    "static/media/Porche.png": "/Paul-Bel/static/media/Porche.a9525259b39cb60a88e5.png",
+    "static/media/Footer3.png": "/Paul-Bel/static/media/Footer3.586bfafe6c358094b9d7.png",
+    "static/media/4.png": "/Paul-Bel/static/media/4.24369123e7db7b053a10.png",
+    "static/media/ChevroletAuction.png": "/Paul-Bel/static/media/ChevroletAuction.376f30fec379c6bfc653.png",
+    "static/media/Ellipse.png": "/Paul-Bel/static/media/Ellipse.4e5494b068db1a97f883.png",
+    "index.html": "/Paul-Bel/index.html",
+    "main.b0813d82.css.map": "/Paul-Bel/static/css/main.b0813d82.css.map",
+    "main.f62e59a5.js.map": "/Paul-Bel/static/js/main.f62e59a5.js.map",
+    "787.121a0e85.chunk.js.map": "/Paul-Bel/static/js/787.121a0e85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0813d82.css",
+    "static/js/main.f62e59a5.js"
+  ]
+}
