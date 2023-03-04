@@ -6,10 +6,12 @@ import {Clock} from "./Clock/Clock";
 import {timeInfo} from "../../common/variablesData/timeInfo";
 
 import styles from './Footer.module.scss'
+import {ButtonCall} from "../../components/ButtonCall/ButtonCall";
 
 let timeData: Array<{city: string, timezone: number }> = timeInfo
 
 const navNames: Array<{ name: string }> = navigate
+
 export const Footer = () => {
     const [navName, setNavName] = useState<string>(navNames[0].name)
     const changeNav = (name: string) => setNavName(name)
@@ -30,7 +32,7 @@ export const Footer = () => {
                     )
                 })}
             </nav >
-            <button className={styles.button} >Бесплатная консультация</button >
+            <ButtonCall title={'Бесплатная консультация'}/>
             <div className={styles.line}/>
             <div className={styles.bottomInfo} >
                 <div className={styles.copyright} >

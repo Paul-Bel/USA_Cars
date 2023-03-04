@@ -6,6 +6,7 @@ import logo from '../../common/img/Logo.png'
 import phone from '../../common/img/PhoneVector.png'
 
 import styles from './Header.module.scss'
+import {ButtonCall} from "../../components/ButtonCall/ButtonCall";
 
 const navNames: Array<{ name: string }> = navigate
 
@@ -38,10 +39,16 @@ export const Header = () => {
                         <img src={phone} alt="phone" className={styles.icon}/>
                         <span className={styles.phoneText}>+1 440 212 5612</span >
                     </span >
-
                     <span className={styles.aboutCallBack}>заказать звонок</span >
+
                 </NavLink >
+
             </nav >
+            <span className={styles.buttonCallBack}>
+                        <ButtonCall
+                            title={'Заказать звонок'}
+                            className={styles.buttonCallBack}/>
+                    </span>
         </div >
     )
 }

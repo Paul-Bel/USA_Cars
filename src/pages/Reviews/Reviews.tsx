@@ -1,4 +1,4 @@
-import {ButtonRound} from "../../components/ButtonRound";
+import {ButtonRound} from "../../components/ButtonPaginator/ButtonRound";
 
 import Reviews1 from '../../common/img/Reviews/Reviews1.png'
 import Reviews2 from '../../common/img/Reviews/Reviews2.png'

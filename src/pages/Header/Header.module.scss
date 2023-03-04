@@ -9,6 +9,9 @@
     display: flex;
     justify-content: space-around;
     width: 38%;
+    @media screen and (max-width: 720px){
+      display: none;
+    }
   }
 
   .headerText {
@@ -36,10 +39,10 @@
     font-size: 10px;
     line-height: 12px;
     color: #2B8AFB;
-
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
     .contacts{
       display: flex;
       .icon{
@@ -62,10 +65,22 @@
       font-weight: 400;
       font-size: 10px;
       line-height: 12px;
-      /* identical to box height */
-
-
       color: #F62C2F;
+    }
+  }
+  .buttonCallBack{
+    display: none;
+    @media screen and (max-width: 720px) {
+      display: inline;
+      position: absolute;
+      width: 123px;
+      height: 36px;
+      background: #F62C2F;
+      cursor: pointer;
+      border: none;
+      color: #FFFFFF;
+      right: 0.5%;
+      top: 6%;
     }
   }
 }

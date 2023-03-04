@@ -8,7 +8,7 @@ import Ford from '../../../common/img/cars/3.png'
 import RAM from '../../../common/img/cars/5.png'
 
 import {useState} from "react";
-import {ButtonRound} from "../../../components/ButtonRound";
+import {ButtonRound} from "../../../components/ButtonPaginator/ButtonRound";
 
 type CarsType = [string, string, number]
 

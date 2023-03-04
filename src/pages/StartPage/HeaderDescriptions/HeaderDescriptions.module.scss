@@ -1,11 +1,15 @@
 .frame {
   max-width: 35%;
+  @media screen and (max-width: 720px) {
+    max-width: 100%;
+
+  }
 
   .descriptions {
     max-width: 493px;
     display: flex;
     flex-direction: column;
-
+    align-items: center;
 
     .descrOne {
       font-family: 'Montserrat', sans-serif;
@@ -15,6 +19,14 @@
       line-height: 44px;
       width: 110%;
       color: #333333;
+      @media screen and (max-width: 720px) {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #333333;
+      }
     }
 
     .descrTwo {
@@ -26,6 +38,17 @@
       color: #333333;
       width: 115%;
       margin-top: 2%;
+      @media screen and (max-width: 720px) {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        text-align: center;
+        color: #333333;
+        margin-top: 0;
+        width: 100%;
+      }
     }
 
   }
@@ -35,11 +58,14 @@
     flex-direction: row;
     align-items: center;
     margin-top: 9%;
+    @media screen and (max-width: 720px) {
+      flex-direction: column;
+    }
 
     .button {
       width: 169px;
       height: 42px;
-      background-color: #333333 ;
+      background-color: #333333;
       left: 67px;
       top: 349px;
       color: #FFFFFF;
@@ -50,7 +76,9 @@
       font-size: 12px;
       line-height: 14px;
       text-align: center;
-
+      @media screen and (max-width: 720px) {
+        width: 90%;
+      }
       &:hover {
         background-color: #3f4444;
         border-color: white;
@@ -66,6 +94,10 @@
       color: #787878;
       width: 26%;
       margin-left: 2%;
+      @media screen and (max-width: 720px) {
+        width: 90%;
+        margin-top: 2%;
+      }
     }
   }
 }
