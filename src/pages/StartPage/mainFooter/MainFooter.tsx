@@ -1,9 +1,9 @@
 import styles from './MainFooter.module.scss'
 
-import TW from '../../../common/img/SC/TW.png'
-import UT from '../../../common/img/SC/UT.png'
-import IN from '../../../common/img/SC/IN.png'
-import FB from '../../../common/img/SC/FB.png'
+import TW from '../../../common/img/sc/TW.png'
+import UT from '../../../common/img/sc/UT.png'
+import IN from '../../../common/img/sc/IN.png'
+import FB from '../../../common/img/sc/FB.png'
 
 
 

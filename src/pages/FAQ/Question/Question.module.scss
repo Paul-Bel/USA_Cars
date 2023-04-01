@@ -1,0 +1,32 @@
+.questionBlock {
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  margin: 1.5% 12% 1.5% 13%;
+
+  .singleQuestion {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & :nth-child(1) {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+    }
+
+    .button {
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+
+  & :nth-child(2) {
+    display: block;
+    margin: 0 20px;
+  }
+}
+

@@ -22,20 +22,20 @@
     cursor: pointer;
 
     &:nth-child(1) {
-      background-image: url("../../../common/img/QuickMenuImg/Auc.png");
+      background-image: url("../../../common/img/quickMenuImg/Auc.png");
       //margin-left: 15px;
     }
 
     &:nth-child(2) {
-      background-image: url("../../../common/img/QuickMenuImg/New.png");
+      background-image: url("../../../common/img/quickMenuImg/New.png");
     }
 
     &:nth-child(3) {
-      background-image: url("../../../common/img/QuickMenuImg/Excl.png");
+      background-image: url("../../../common/img/quickMenuImg/Excl.png");
     }
 
     &:nth-child(4) {
-      background-image: url("../../../common/img/QuickMenuImg/Calc.png");
+      background-image: url("../../../common/img/quickMenuImg/Calc.png");
       //margin-right: 15px;
     }
   }

@@ -1,17 +1,14 @@
 import {NavLink} from "react-router-dom";
-import {useState} from "react";
+import {navigate} from "../../common/variablesData/nav";
 
-import styles from './Header.module.scss'
+import {useState} from "react";
 import logo from '../../common/img/Logo.png'
 import phone from '../../common/img/PhoneVector.png'
 
-const navNames: Array<{ name: string }> = [
-    {name: 'Главная'},
-    {name: 'Каталог'},
-    {name: 'О нас'},
-    {name: 'Контакты'},
-]
+import styles from './Header.module.scss'
+import {ButtonCall} from "../../components/ButtonCall/ButtonCall";
 
+const navNames: Array<{ name: string }> = navigate
 
 export const Header = () => {
 
@@ -42,10 +39,16 @@ export const Header = () => {
                         <img src={phone} alt="phone" className={styles.icon}/>
                         <span className={styles.phoneText}>+1 440 212 5612</span >
                     </span >
-
                     <span className={styles.aboutCallBack}>заказать звонок</span >
+
                 </NavLink >
+
             </nav >
+            <span className={styles.buttonCallBack}>
+                        <ButtonCall
+                            title={'Заказать звонок'}
+                            className={styles.buttonCallBack}/>
+                    </span>
         </div >
     )
 }

@@ -1,0 +1,14 @@
+.button{
+  position: absolute;
+  width: 183px;
+  height: 36px;
+  background: #F62C2F;
+  cursor: pointer;
+  border: none;
+  color: #FFFFFF;
+  right: 2.5%;
+  top: 13%;
+  &:active{
+    background: #bd073e;
+  }
+}

@@ -1,4 +1,4 @@
-import {Header} from "../header/Header";
+import {Header} from "../Header/Header";
 import {HeaderDescriptions} from "./HeaderDescriptions/HeaderDescriptions";
 import {MainCars} from "./mainCars/MainCars";
 import {MainFooter} from "./mainFooter/MainFooter";
