@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/USA_Cars/static/css/main.040d2a7e.css",
-    "main.js": "/USA_Cars/static/js/main.56cbcf16.js",
+    "main.js": "/USA_Cars/static/js/main.9c0fe8ff.js",
     "static/js/787.121a0e85.chunk.js": "/USA_Cars/static/js/787.121a0e85.chunk.js",
     "static/media/8.png": "/USA_Cars/static/media/8.024c2c35560c610fcdb6.png",
     "static/media/reviewsBottom.png": "/USA_Cars/static/media/reviewsBottom.f8f8fd2ee22eda6d496f.png",
@@ -24,11 +24,11 @@
     "static/media/Ellipse.png": "/USA_Cars/static/media/Ellipse.4e5494b068db1a97f883.png",
     "index.html": "/USA_Cars/index.html",
     "main.040d2a7e.css.map": "/USA_Cars/static/css/main.040d2a7e.css.map",
-    "main.56cbcf16.js.map": "/USA_Cars/static/js/main.56cbcf16.js.map",
+    "main.9c0fe8ff.js.map": "/USA_Cars/static/js/main.9c0fe8ff.js.map",
     "787.121a0e85.chunk.js.map": "/USA_Cars/static/js/787.121a0e85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.040d2a7e.css",
-    "static/js/main.56cbcf16.js"
+    "static/js/main.9c0fe8ff.js"
   ]
 }
