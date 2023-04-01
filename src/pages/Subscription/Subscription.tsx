@@ -14,7 +14,7 @@ export const Subscription = () => {
                 <a href="#1" className={styles.TG} > </a >
                 <div className={styles.descriptionsFrame} >
                     <span className={styles.descriptions} >
-                        <span >Подпишись</span >
+                        <a href={'#'}>Подпишись</a >
                         <span > на наш Telegram</span >
                     </span >
                     <span >Получай ежедневно лучшую подборку авто от наших экспертов</span >

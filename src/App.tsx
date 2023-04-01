@@ -10,7 +10,7 @@ function App() {
 
 
             <Routes >
-                <Route path="/" element={ <MainPage />} />
+                <Route path="/USA_Cars" element={ <MainPage />} />
                 {/*<Route path="/account" element={<PersonalAreaPage />} />*/}
                 {/*<Route path="/menu" element={<MenuPage />} />*/}
                 {/*<Route path="/companies" element={<CompaniesPage/>} />*/}
