@@ -10,7 +10,9 @@
   @media screen and (min-width: 1700px) {
     margin: 12vh 0 0 17.5vw;
   }
-
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
   .ScDescription {
     font-family: 'Roboto', sans-serif;
     font-style: normal;

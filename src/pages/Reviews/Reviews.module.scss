@@ -1,4 +1,5 @@
 .reviewsContainer {
+  overflow: hidden;
   height: 750px;
   background: #FFFFFF;
   background-image: url("../../common/img/reviewsBottom.png");
@@ -37,6 +38,15 @@
     display: flex;
     justify-content: center;
     margin-top: 3%;
+
+    @media screen and (max-width: 950px) {
+      & :nth-child(2) {
+        display: none;
+      }
+      & :nth-child(3) {
+        display: none;
+      }
+    }
   }
 
   .paginator {
@@ -44,8 +54,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 1.5vh;
+    .count {
+      color: #FFFFFF;
+    }
     @media screen and (min-width: 1281px) {
-      margin-top: -4.5vh;
+      margin-top: 1.5vh;
     }
 
     & :nth-child(1) {

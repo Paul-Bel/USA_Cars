@@ -4,13 +4,24 @@
   padding: 23px 51px 0 51px;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 720px) {
+    justify-content: flex-start;
+    width: 360px;
+    padding-left: 20px;
+    padding-top: 11px;
+  }
 
-  .headerLink {
-    display: flex;
-    justify-content: space-around;
-    width: 38%;
-    @media screen and (max-width: 720px){
-      display: none;
+  .burgerMenu {
+    display: none;
+    @media screen and (max-width: 720px) {
+      margin-right: 24.5px;
+      width: 27px;
+      height: 18px;
+      display: inline-block;
+      background-image: url("../../common/img/startPage/burgerMenu.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
     }
   }
 
@@ -26,49 +37,15 @@
 
     opacity: 0.6;
   }
-  .activeNav {
-    border-bottom: 4px solid #F62C2F;
-    margin: 0 0 3px 0;
-  }
 
-  .callBack {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    color: #2B8AFB;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  //.activeNav {
+  //  border-bottom: 4px solid #F62C2F;
+  //  margin: 0 0 3px 0;
+  //}
 
-    .contacts{
-      display: flex;
-      .icon{
-        margin: 0 9px 0 0;
-      }
-      .phoneText {
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 14px;
-        text-align: right;
-        color: #333333;
-      }
-    }
 
-    .aboutCallBack{
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 10px;
-      line-height: 12px;
-      color: #F62C2F;
-    }
-  }
-  .buttonCallBack{
+
+  .buttonCallBack {
     display: none;
     @media screen and (max-width: 720px) {
       display: inline;
@@ -80,7 +57,7 @@
       border: none;
       color: #FFFFFF;
       right: 0.5%;
-      top: 6%;
+      top: 3%;
     }
   }
 }

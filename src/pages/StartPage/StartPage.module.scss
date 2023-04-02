@@ -1,23 +1,36 @@
 .mainFirst {
   position: relative;
   margin: 0 auto;
-  height: 634px;
+  height: 660px;
   background: #F5F5F5;
   background-image: url("../../common/img/Rectangle.png");
   background-repeat: no-repeat;
   background-size: auto;
-  //background-position: bottom;
   background-position-y: 90px;
   overflow: hidden;
-  @media screen and (max-width: 720px) {
-
+  @media screen and (max-width: 1230px) {
+    height: 65vh;
   }
-
+  @media screen and (max-width: 720px) {
+    height: 69vh;
+  }
+  @media screen and (max-width: 670px) {
+    height: 74vh;
+  }
+  @media screen and (max-width: 600px) {
+    height: 69vh;
+  }
+  @media screen and (max-width: 520px) {
+    height: 72vh;
+  }
   .descriptionsContainer {
     display: flex;
     margin: 7% 0 0 4%;
     @media screen and (max-width: 720px) {
       flex-direction: column;
+    }
+    @media screen and (max-width: 420px) {
+      margin-top: 15%;
     }
   }
 }

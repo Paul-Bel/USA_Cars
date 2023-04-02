@@ -1,5 +1,6 @@
 import styles from "./HeaderDescriptions.module.scss";
 import React from "react";
+import {ButtonFindCar} from "../../../components/ButtonFindCar/ButtonFindCar";
 
 
 export const HeaderDescriptions = () => {
@@ -15,13 +16,9 @@ export const HeaderDescriptions = () => {
                     Авто с незначительными повреждениями, по средней цене американских аукционов.
                 </span >
             </div >
-            <div className={styles.buttonExperience}>
-                <button
-                    className={styles.button}>
-                    Подобрать автомобиль
-                </button >
-                <span className={styles.discrButton}>Многолетний опыт и надежный сервис</span >
-            </div >
+            <ButtonFindCar
+                title={'Подобрать автомобиль'}
+                descriptions={'Многолетний опыт и надежный сервис'}/>
         </div >
     )
 }

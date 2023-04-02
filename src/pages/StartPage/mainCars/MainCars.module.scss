@@ -7,25 +7,42 @@
       left: 12vh !important;
     }
   }
+
   & :nth-child(2) {
     @media screen and (max-width: 420px) {
       left: 7vh !important;
     }
   }
+
   & :nth-child(2) {
     @media screen and (max-width: 350px) {
       left: 5vh !important;
     }
   }
+
   & :nth-child(1) {
     @media screen and (max-width: 800px) {
       left: 2vh !important;
     }
+    @media screen and (max-width: 420px) {
+      width: 92vw !important;
+      top: -9vh !important;
+      left: 6vh !important;
+    }
   }
-  & :nth-child(1) {
-      max-width: 450px !important;
 
+  & :nth-child(1) {
+    max-width: 450px !important;
   }
+
+  & :nth-child(2) {
+    @media screen and (max-width: 420px) {
+      top: -8vh !important;
+      width: 90vw !important;
+      left: 159px !important;
+    }
+  }
+
   .img {
     width: 38vw;
     height: 38vh;
@@ -41,51 +58,40 @@
       position: absolute;
       top: 33vh;
       left: 10vw;
-      @media screen and (min-width: 1288px) {
-        //left: 30%
+      @media screen and (max-width: 720px) {
+        top: 27vh
       }
-      @media screen and (max-width: 1200px) {
-        //left: 25%
+      @media screen and (max-width: 420px) {
+        top: 24vh !important;
+        left: -16% !important;
       }
-      @media screen and (max-width: 1120px) {
-        //top: 32vh;
-        //left: 0;
+      @media screen and (max-width: 420px) {
+        &:nth-child(1) {
+          width: 120px !important;
+
+        }
+        &:nth-child(3) {
+          width: 90px !important;
+        }
+        & button {
+          width: 39.1px !important;
+          height: 39.1px !important;
+        }
       }
-      @media screen and (max-width: 900px) {
-        //top: 32vh;
-        //left: -15%
-      }
-      @media screen and (max-width: 800px) {
-        //top: 28vh;
-        //left: -40%
-      }
-      @media screen and (max-width: 800px) {
-        //top: 28vh;
-        //left: -55%
-      }
+
       .count {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 12px;
         line-height: 14px;
-        color: #333333;
         margin: 0 10px 0 10px;
-      }
-
-      .button {
-        width: 39.1px;
-        height: 39.1px;
-        border-radius: 50%;
-
-        background-position: center;
-        cursor: pointer;
-        background-color: #FFFFFF;
-        border: 1px solid #F62C2F;
-        background-repeat: no-repeat;
+        color: #FFFFFF;
+        @media screen and (max-width: 420px) {
+          width: 18px !important;
+          color: #FFFFFF;
+        }
       }
     }
-
   }
-
 }

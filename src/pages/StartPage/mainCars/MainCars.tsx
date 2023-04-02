@@ -51,7 +51,7 @@ export const MainCars = () => {
     return (
         <div className={styles.carsMain} >
             <div
-                className={styles.img}
+                className={styles.img + ' ' + styles.mobileImgFirst}
                 style={{
                     backgroundImage: `url(${cars[0]})`,
                     top: '-4vh',
@@ -59,13 +59,12 @@ export const MainCars = () => {
                 }
                 } />
             <div
-                className={styles.img}
+                className={styles.img }
                 style={{
                     backgroundImage: `url(${cars[1]})`,
                     left: '29vw',
                     top: '-1vh',
                 }} >
-
                 <div className={styles.buttonGroup} >
                     <ButtonRound
                         callBack={changeCarsDown}

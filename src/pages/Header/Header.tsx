@@ -1,54 +1,50 @@
-import {NavLink} from "react-router-dom";
-import {navigate} from "../../common/variablesData/nav";
-
 import {useState} from "react";
 import logo from '../../common/img/Logo.png'
-import phone from '../../common/img/PhoneVector.png'
 
 import styles from './Header.module.scss'
 import {ButtonCall} from "../../components/ButtonCall/ButtonCall";
+import {NavMenu} from "./NavMenu/NavMenu";
 
-const navNames: Array<{ name: string }> = navigate
+
+const animationOn = {
+    transform: 'rotate(90deg)',
+    transitionDuration: '1.5s'
+}
+
+const animationOff = {
+    transform: 'rotate(0deg)',
+    transitionDuration: '1.5s'
+}
+
+const burgerOff = {
+    marginLeft: '-1800px',
+    transitionDuration: '0.7s',
+}
+const burgerOn = {
+    marginLeft: '-18px',
+    transitionDuration: '0.7s',
+}
 
 export const Header = () => {
 
-    const [navName, setNavName] = useState<string>(navNames[0].name)
-    const changeNav = (name: string) => setNavName(name)
+    const [menu, setMenu] = useState<boolean>(false)
 
     return (
         <div className={styles.headerFrame} >
-            <img src={logo} alt={''}/>
-            <nav className={styles.headerLink} >
-                {navNames.map((el, i) => {
-                    return (
-                        <NavLink
-                            key={i}
-                            to={'/'}
-                            onClick={() => changeNav(el.name)}
-                            className={el.name !== navName ?
-                                styles.headerText :
-                                styles.headerText + ' ' + styles.activeNav} >
-                            {el.name}
-                        </NavLink >
-                    )
-                })}
-                <NavLink
-                    to={''}
-                    className={styles.callBack} >
-                    <span className={styles.contacts}>
-                        <img src={phone} alt="phone" className={styles.icon}/>
-                        <span className={styles.phoneText}>+1 440 212 5612</span >
-                    </span >
-                    <span className={styles.aboutCallBack}>заказать звонок</span >
-
-                </NavLink >
-
-            </nav >
-            <span className={styles.buttonCallBack}>
+            <div
+                className={styles.burgerMenu}
+                style={menu ? animationOn : animationOff}
+                onClick={() => setMenu(!menu)}
+            />
+            <img src={logo} alt={''} />
+            <NavMenu
+                style={menu ? burgerOn : burgerOff}
+                closedMenu={() => setMenu(false)}/>
+            <span className={styles.buttonCallBack} >
                         <ButtonCall
                             title={'Заказать звонок'}
-                            className={styles.buttonCallBack}/>
-                    </span>
+                            className={styles.buttonCallBack} />
+                    </span >
         </div >
     )
 }

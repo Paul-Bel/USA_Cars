@@ -175,6 +175,10 @@ export const PopularCars = () => {
             <div className={styles.cardContainer} >
                 {imgCar.map((car, i) => {
                     if (typeof car !== 'number') {
+                        let screen = window.screen.width
+                        if(screen < 1170 && i === 3) return
+                        if(screen < 780 && i === 2) return
+                        if(screen < 710 && i === 1) return
                         return (
                             <CardCar
                                 key={i}
