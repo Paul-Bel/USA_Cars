@@ -35,36 +35,40 @@ export const AboutUs = () => {
             <div className={styles.descriptions} >
                 <p className={styles.descriptionItem} >
                     <span className={styles.paragraph} />
-                    <span >
+                    <span className={styles.valueDescription} >
                     <b >Работаем без посредников</b >
                     и экономим ваш бюджет;
                 </span >
                 </p >
                 <p className={styles.descriptionItem} >
                     <span className={styles.paragraph} />
-                    <span >
+                    <span className={styles.valueDescription} >
                         <b >Имеем все необходимые лицензии </b >
                         для работы с аукционами Copart, IAAI, Manheim, ADESA.
                     </span >
                 </p >
                 <p className={styles.descriptionItem} >
-                <span >
                     <span className={styles.paragraph} />
+                    <span className={styles.valueDescription} >
                     <b >Физическое нахождение в США </b >
-                    позволяет нам осуществить осмотр и оценить автомобиль до покупки.
-                </span >
+                        позволяет нам осуществить осмотр и оценить автомобиль до покупки.
+                        </span >
                 </p >
                 <p className={styles.descriptionItem} >
                     <span className={styles.paragraph} />
-                    <span >
-                    <b >Широкий спектр дополнительных услуг:</b > подготовка автомобиля к отправке, укомплектовка
+                    <span className={styles.valueDescription} >
+                    <b >Широкий спектр дополнительных услуг:</b >
+                        подготовка автомобиля к отправке, укомплектовка
                     запасными частями
                     и оборудованием, ремонт, а также страхование груза, если Вам это необходимо.
                 </span >
                 </p >
                 <p className={styles.descriptionItem} >
                     <span className={styles.paragraph} />
-                    <b >Индивидуальный подход к каждому клиенту,</b > при покупке нового авто или автомобиля с пробегом.
+                    <span className={styles.valueDescription} >
+                    <b >Индивидуальный подход к каждому клиенту,</b >
+                        при покупке нового авто или автомобиля с пробегом.
+               </span >
                 </p >
             </div >
         </div >

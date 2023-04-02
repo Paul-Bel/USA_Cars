@@ -4,15 +4,23 @@
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 100%;
+  @media screen and (max-width: 420px) {
+    height: 74vh;
+  }
 
   .title {
     margin-top: 4.5%;
     display: flex;
     align-items: center;
     justify-content: center;
-    & :nth-child(2){
+
+    & :nth-child(2) {
       margin: 0 10px;
+      @media screen and (max-width: 420px) {
+        margin-top: 45px;
+      }
     }
+
     & span {
       font-family: 'Montserrat', sans-serif;
       font-style: normal;
@@ -41,6 +49,12 @@
     background: #FFEDED;
     border: 1px solid #FFD3D3;
     box-shadow: 0 25px 45px 1px rgba(224, 92, 92, 0.2);
+    @media screen and (max-width: 420px) {
+      flex-wrap: wrap;
+      height: 240px;
+      width: 97vw;
+      margin: 8px 0 0 7px;
+    }
 
     & span {
       display: inline-block;
@@ -52,7 +66,9 @@
       font-size: 14px;
       line-height: 20px;
       color: #000000;
-
+      @media screen and (max-width: 420px) {
+        padding: 5px;
+      }
     }
   }
 }
