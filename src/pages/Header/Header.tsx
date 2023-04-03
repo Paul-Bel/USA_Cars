@@ -1,5 +1,6 @@
 import {useState} from "react";
 import logo from '../../common/img/Logo.png'
+import closed from '../../common/img/menu/closed.png'
 
 import styles from './Header.module.scss'
 import {ButtonCall} from "../../components/ButtonCall/ButtonCall";
@@ -8,12 +9,15 @@ import {NavMenu} from "./NavMenu/NavMenu";
 
 const animationOn = {
     transform: 'rotate(90deg)',
-    transitionDuration: '1.5s'
+    transitionDuration: '0.7s',
+    backgroundImage: `url(${closed})`,
+    backgroundSize: 'auto',
+
 }
 
 const animationOff = {
     transform: 'rotate(0deg)',
-    transitionDuration: '1.5s'
+    transitionDuration: '0.7s',
 }
 
 const burgerOff = {
