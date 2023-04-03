@@ -1,5 +1,5 @@
 import {useState} from "react";
-import logo from '../../common/img/Logo.png'
+import logo from '../../common/img/miscellaneous/Logo.png'
 import closed from '../../common/img/menu/closed.png'
 
 import styles from './Header.module.scss'

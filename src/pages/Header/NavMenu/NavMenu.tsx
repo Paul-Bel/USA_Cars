@@ -5,11 +5,11 @@ import React, {MouseEvent} from 'react';
 import {navigate} from "../../../common/variablesData/nav";
 import {ButtonFindCar} from "../../../components/ButtonFindCar/ButtonFindCar";
 
-import phone from "../../../common/img/PhoneVector.png";
+import phone from "../../../common/img/miscellaneous/PhoneVector.png";
 
 import styles from './NavMenu.module.scss'
 
-const navNames: Array<{ name: string }> = navigate
+const navNames: Array<{ name: string, path: string }> = navigate
 
 type NavMenuType = {
     style: {
@@ -20,14 +20,18 @@ type NavMenuType = {
 }
 
 export const NavMenu: React.FC<NavMenuType> = ({style, closedMenu}) => {
-    const [navName, setNavName] = useState<string>(navNames[0].name)
+
+    let activeMenuUrl = navNames.filter(f => document.URL.includes(f.path))
+        ? navNames.filter(f => document.URL.includes(f.path))[0].name
+        : navNames[0].name
+
+    const [navName, setNavName] = useState<string>(activeMenuUrl)
     const changeNav = (name: string) => setNavName(name)
 
     const closedWindow = (e: MouseEvent) => {
         e.stopPropagation()
         // closedMenu()
     }
-
 
     return (
         <nav
@@ -39,7 +43,7 @@ export const NavMenu: React.FC<NavMenuType> = ({style, closedMenu}) => {
                 return (
                     <NavLink
                         key={i}
-                        to={'/USA_Cars'}
+                        to={el.path}
                         onClick={() => changeNav(el.name)}
                         className={el.name !== navName ?
                             styles.headerText :

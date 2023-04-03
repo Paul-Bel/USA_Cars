@@ -1,7 +1,7 @@
 import {FC} from "react";
 
-import questionButton from "../../../common/img/questionButton.png";
-import closeButton from "../../../common/img/closeButton.png";
+import questionButton from "../../../common/img/buttons/questionButton.png";
+import closeButton from "../../../common/img/buttons/closeButton.png";
 
 import styles from "./Question.module.scss";
 

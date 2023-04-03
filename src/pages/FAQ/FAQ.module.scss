@@ -8,7 +8,16 @@
     height: 760px;
     background-image: none;
   }
-
+  @media screen and (max-width: 790px) {
+    height: 820px;
+  }
+  @media screen and (max-width: 620px) {
+    height: 728px;
+    background-image: none;
+  }
+  @media screen and (max-width: 450px) {
+    height: 750px;
+  }
   .title {
     margin-top: 4.5%;
     display: flex;
