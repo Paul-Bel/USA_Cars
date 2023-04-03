@@ -5,11 +5,22 @@
   background-position: bottom;
   background-repeat: no-repeat;
   overflow: hidden;
+
+  @media screen and (max-width: 780px) {
+    & :only-child(3){
+      display: none;
+    }
+  }
+  @media screen and (max-width: 710px) {
+    & :only-child(2){
+      display: none;
+    }
+  }
   .headerContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10.5%;
+    padding-top: 2.5%;
 
     .lineDescr {
       background-image: url("../../common/img/LinePopularCars.png");
@@ -52,6 +63,20 @@
   .cardContainer {
     display: flex;
     margin: 2vh 0 0 11.5vw;
+
+      &:only-child(4){
+       border: 5px solid red;
+      }
+    @media screen and (max-width: 840px) {
+      &:only-child(3){
+        display: none;
+      }
+    }
+    @media screen and (max-width: 710px) {
+      &:only-child(2){
+        display: none;
+      }
+    }
     @media screen and (max-width: 420px) {
       margin-left: 2.5vh;
     }
@@ -63,7 +88,7 @@
     justify-content: center;
     margin-top: 1.5vh;
     @media screen and (min-width: 1281px) {
-      margin-top: -4.5vh;
+      margin-top: 1.5vh;
     }
 
     & :nth-child(1) {

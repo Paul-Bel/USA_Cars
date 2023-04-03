@@ -2,7 +2,6 @@
   max-width: 35%;
   @media screen and (max-width: 720px) {
     max-width: 100%;
-
   }
 
   .descriptions {
@@ -50,60 +49,5 @@
         width: 100%;
       }
     }
-
   }
-
-  //.buttonExperience {
-  //  display: flex;
-  //  flex-direction: row;
-  //  align-items: center;
-  //  margin-top: 9%;
-  //  @media screen and (max-width: 720px) {
-  //    flex-direction: column;
-  //  }
-  //
-  //  .button {
-  //    width: 169px;
-  //    height: 42px;
-  //    background-color: #333333;
-  //    left: 67px;
-  //    top: 349px;
-  //    color: #FFFFFF;
-  //    cursor: pointer;
-  //    font-family: 'Roboto', sans-serif;
-  //    font-style: normal;
-  //    font-weight: 600;
-  //    font-size: 12px;
-  //    line-height: 14px;
-  //    text-align: center;
-  //    @media screen and (max-width: 720px) {
-  //      width: 90%;
-  //    }
-  //    @media screen and (max-width: 420px) {
-  //      width: 68%;
-  //    }
-  //    &:hover {
-  //      background-color: #3f4444;
-  //      border-color: white;
-  //    }
-  //  }
-  //
-  //  .discrButton {
-  //    font-family: 'Roboto', sans-serif;
-  //    font-style: normal;
-  //    font-weight: 400;
-  //    font-size: 12px;
-  //    line-height: 14px;
-  //    color: #787878;
-  //    width: 26%;
-  //    margin-left: 2%;
-  //    @media screen and (max-width: 720px) {
-  //      width: 90%;
-  //      margin-top: 2%;
-  //    }
-  //    @media screen and (max-width: 420px) {
-  //      width: 68%;
-  //    }
-  //  }
-  //}
 }

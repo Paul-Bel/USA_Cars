@@ -1,4 +1,4 @@
-.cardContainer {
+.cardItem {
   width: 310px;
   height: 407px;
   background: #FFFFFF;
@@ -9,6 +9,23 @@
   justify-content: space-between;
   align-items: stretch;
   margin-left: 13px;
+
+  @media screen and (max-width: 1170px) {
+    &:nth-child(4) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 840px) {
+    &:nth-child(3) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 710px) {
+    &:nth-child(2){
+      display: none;
+    }
+  }
+
   .img {
     width: 310px;
   }

@@ -7,7 +7,9 @@
   @media screen and (max-width: 420px) {
     height: 608px;
   }
-
+  @media screen and (max-width: 1000px) {
+    height: 386px;
+  }
   .title {
     margin-top: 4.5%;
     display: flex;

@@ -1,7 +1,22 @@
 .carsMain {
   display: flex;
   position: relative;
-
+  @media screen and (max-width: 720px) {
+    left: 253px;
+    bottom: 106px;
+  }
+  @media screen and (max-width: 620px) {
+    left: 165px;
+    bottom: 106px;
+  }
+  @media screen and (max-width: 520px) {
+    left: 108px;
+    bottom: 106px;
+  }
+  @media screen and (max-width: 420px) {
+    left: -31px;
+    bottom: 6px;
+  }
   & :nth-child(2) {
     @media screen and (max-width: 800px) {
       left: 12vh !important;
@@ -58,6 +73,9 @@
       position: absolute;
       top: 33vh;
       left: 10vw;
+      @media screen and (max-width: 1130px) {
+        top: 280px
+      }
       @media screen and (max-width: 720px) {
         top: 27vh
       }
@@ -94,4 +112,5 @@
       }
     }
   }
+
 }

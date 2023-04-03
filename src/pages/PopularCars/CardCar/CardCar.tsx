@@ -9,7 +9,7 @@ export const CardCar = (props: CardCarPropsType) => {
     const {imgCar, nameCar} = props
 
     return (
-        <div className={styles.cardContainer} >
+        <div className={styles.cardItem} >
             <img
                 src={imgCar}
                 className={styles.img}

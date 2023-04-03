@@ -1,7 +1,7 @@
 .mainFirst {
   position: relative;
   margin: 0 auto;
-  height: 660px;
+  height: 760px;
   background: #F5F5F5;
   background-image: url("../../common/img/Rectangle.png");
   background-repeat: no-repeat;
@@ -9,17 +9,12 @@
   background-position-y: 90px;
   overflow: hidden;
   @media screen and (max-width: 1230px) {
-    height: 65vh;
+    height: 754px;
   }
   @media screen and (max-width: 720px) {
-    height: 69vh;
+    height: 800px;
   }
-  @media screen and (max-width: 670px) {
-    height: 74vh;
-  }
-  @media screen and (max-width: 600px) {
-    height: 80vh;
-  }
+
   @media screen and (max-width: 520px) {
     height: 790px;
   }
