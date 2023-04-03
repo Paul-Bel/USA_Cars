@@ -8,11 +8,14 @@
     flex-wrap: wrap;
     flex-direction: column-reverse;
     align-items: flex-start;
+    height: 233px;
   }
   .linkGroup {
     display: flex;
     @media screen and (max-width: 420px) {
-      //margin-left: 10%;
+      margin: 0 0 0 -20px;
+      width: 104vw;
+      justify-content: space-between;
     }
     & a {
       display: block;

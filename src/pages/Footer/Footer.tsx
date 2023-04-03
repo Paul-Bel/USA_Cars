@@ -1,12 +1,13 @@
-import {NavLink} from "react-router-dom";
 import {useState} from "react";
-import {navigate} from "../../common/variablesData/nav";
+import {NavLink} from "react-router-dom";
 
-import {Clock} from "./Clock/Clock";
+import {navigate} from "../../common/variablesData/nav";
 import {timeInfo} from "../../common/variablesData/timeInfo";
 
-import styles from './Footer.module.scss'
+import {Clock} from "./Clock/Clock";
 import {ButtonCall} from "../../components/ButtonCall/ButtonCall";
+
+import styles from './Footer.module.scss'
 
 let timeData: Array<{city: string, timezone: number }> = timeInfo
 
@@ -22,7 +23,7 @@ export const Footer = () => {
                     return (
                         <NavLink
                             key={i}
-                            to={'/'}
+                            to={'/USA_Cars'}
                             onClick={() => changeNav(el.name)}
                             className={el.name !== navName ?
                                 styles.nav :
