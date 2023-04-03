@@ -36,7 +36,7 @@ export const Footer = () => {
             <div className={styles.line}/>
             <div className={styles.bottomInfo} >
                 <div className={styles.copyright} >
-                    2022 Все права защищены. Политика конфиденциальности
+                    2022 Все права защищены. <span>Политика конфиденциальности</span>
                 </div >
                 <div className={styles.time} >
                     {timeData.map((el, i) => {

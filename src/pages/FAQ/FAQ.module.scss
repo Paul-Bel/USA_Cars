@@ -4,6 +4,10 @@
   background-image: url("../../common/img/cars/Porche.png");
   background-repeat: no-repeat;
   background-position-y: bottom;
+  @media screen and (max-width: 420px) {
+    height: 760px;
+    background-image: none;
+  }
 
   .title {
     margin-top: 4.5%;

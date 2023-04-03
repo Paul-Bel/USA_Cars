@@ -4,16 +4,28 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
+  @media screen and (max-width: 420px) {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
   .linkGroup {
     display: flex;
-
+    @media screen and (max-width: 420px) {
+      //margin-left: 10%;
+    }
     & a {
       display: block;
       width: 38px;
       height: 38px;
       margin-left: 24px;
       text-decoration: none;
+      @media screen and (max-width: 420px) {
+        width: 57px;
+        height: 57px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     }
 
     .TW {
@@ -47,6 +59,12 @@
       background-image: url("../../common/img/subscription/TG.png");
       background-position: center;
       text-decoration: none;
+      @media screen and (max-width: 420px) {
+        width: 68px;
+        height: 68px;
+        background-size: cover;
+        margin-left: 2px;
+      }
     }
 
     .descriptionsFrame {
@@ -62,10 +80,17 @@
         font-size: 12px;
         line-height: 14px;
         color: rgba(31, 31, 31, 0.7);
+
+        @media screen and (max-width: 420px) {
+          width: 220px;
+          margin: 0 0 0 4px;
+        }
       }
 
       .descriptions {
-
+        @media screen and (max-width: 420px) {
+          width: 280px;
+        }
         & :nth-child(1) {
           font-family: 'Roboto', sans-serif;
           font-style: normal;

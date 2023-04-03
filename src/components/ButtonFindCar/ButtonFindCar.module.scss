@@ -8,6 +8,8 @@
   }
 
   .button {
+    position: inherit;
+    z-index: 3;
     width: 169px;
     height: 42px;
     background-color: #333333;
