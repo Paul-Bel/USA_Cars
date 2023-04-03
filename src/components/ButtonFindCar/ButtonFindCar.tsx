@@ -9,7 +9,7 @@ type ButtonFindCarType = {
 }
 
 export const ButtonFindCar: React.FC<ButtonFindCarType> = ({title, className, descriptions}) => {
-
+    console.log(descriptions, 'descriptions === \'true\'', descriptions === 'true')
     return (
         <div className={Boolean(!className) ? styles.buttonExperience : ''} >
             <button

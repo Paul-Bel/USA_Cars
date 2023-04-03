@@ -1,13 +1,13 @@
-import {NavLink} from "react-router-dom";
 import {useState} from "react";
+import {NavLink} from "react-router-dom";
 import React, {MouseEvent} from 'react';
+
 import {navigate} from "../../../common/variablesData/nav";
+import {ButtonFindCar} from "../../../components/ButtonFindCar/ButtonFindCar";
 
 import phone from "../../../common/img/PhoneVector.png";
 
 import styles from './NavMenu.module.scss'
-
-import {ButtonFindCar} from "../../../components/ButtonFindCar/ButtonFindCar";
 
 const navNames: Array<{ name: string }> = navigate
 
@@ -25,9 +25,7 @@ export const NavMenu: React.FC<NavMenuType> = ({style, closedMenu}) => {
 
     const closedWindow = (e: MouseEvent) => {
         e.stopPropagation()
-        console.log(e)
-        closedMenu()
-        console.log(1111)
+        // closedMenu()
     }
 
 
