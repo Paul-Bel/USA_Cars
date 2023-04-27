@@ -4,6 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  @media screen and (max-width: 730px) {
+    flex-wrap: wrap;
+  }
   @media screen and (max-width: 420px) {
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -13,8 +16,8 @@
   .linkGroup {
     display: flex;
     @media screen and (max-width: 420px) {
-      margin: 0 0 0 -20px;
-      width: 104vw;
+      margin: 0 0 0 -8px;
+      width: 97vw;
       justify-content: space-between;
     }
     & a {
@@ -27,7 +30,13 @@
         width: 57px;
         height: 57px;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 55px;
+      }
+      @media screen and (max-width: 360px) {
+        width: 57px;
+        height: 57px;
+        background-repeat: no-repeat;
+        background-size: 47px;
       }
     }
 
@@ -94,6 +103,7 @@
         @media screen and (max-width: 420px) {
           width: 280px;
         }
+
         & :nth-child(1) {
           font-family: 'Roboto', sans-serif;
           font-style: normal;
@@ -102,6 +112,9 @@
           line-height: 25px;
           text-decoration-line: underline;
           color: #F62C2F;
+          @media screen and (max-width: 350px) {
+            font-size: 14px;
+          }
         }
 
         & :nth-child(2) {
@@ -110,6 +123,9 @@
           font-weight: 500;
           font-size: 21px;
           line-height: 25px;
+          @media screen and (max-width: 350px) {
+            font-size: 14px;
+          }
         }
       }
     }

@@ -1,4 +1,4 @@
-.footerContainer{
+.footerContainer {
   height: 148px;
   background: #414141;
   background-image: url("../../../common/img/footers/Lable.png");
@@ -21,17 +21,23 @@
     }
   }
 
-  .navLink{
+  .navLink {
     display: flex;
     justify-content: space-evenly;
     margin: 0 34%;
+    @media screen and (max-width: 670px) {
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+    }
     @media screen and (max-width: 420px) {
       display: flex;
       flex-direction: column;
       height: 200px;
       margin-top: 96px;
     }
-    .nav{
+
+    .nav {
       display: block;
       font-family: 'Roboto', sans-serif;
       font-style: normal;
@@ -51,7 +57,8 @@
       }
     }
   }
-  .line{
+
+  .line {
     border: 1px solid #818181;
     margin: 0 3%;
     @media screen and (max-width: 420px) {
@@ -59,15 +66,17 @@
     }
   }
 
-  .bottomInfo{
+  .bottomInfo {
     display: flex;
     justify-content: space-between;
     margin: 0 0 0 3%;
     width: 96%;
+
     @media screen and (max-width: 420px) {
       flex-direction: column-reverse;
     }
-    .copyright{
+
+    .copyright {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 400;
@@ -83,13 +92,20 @@
         align-items: center;
       }
     }
-    .time{
+
+    .time {
       display: flex;
       width: 32.5%;
+      @media screen and (max-width: 650px) {
+        width: 45%;
+        margin-left: -5px;
+        margin-bottom: 5px;
+      }
       @media screen and (max-width: 420px) {
-width: 100%;
+        width: 100%;
         margin-left: -5px;
       }
+
       & div {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
