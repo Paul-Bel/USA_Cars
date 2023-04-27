@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/USA_Cars/static/css/main.430d5786.css",
-    "main.js": "/USA_Cars/static/js/main.f442e089.js",
+    "main.css": "/USA_Cars/static/css/main.521ee7e9.css",
+    "main.js": "/USA_Cars/static/js/main.951aa01f.js",
     "static/js/787.121a0e85.chunk.js": "/USA_Cars/static/js/787.121a0e85.chunk.js",
     "static/media/8.png": "/USA_Cars/static/media/8.024c2c35560c610fcdb6.png",
     "static/media/reviewsBottom.png": "/USA_Cars/static/media/reviewsBottom.f8f8fd2ee22eda6d496f.png",
@@ -23,12 +23,12 @@
     "static/media/ChevroletAuction.png": "/USA_Cars/static/media/ChevroletAuction.376f30fec379c6bfc653.png",
     "static/media/Ellipse.png": "/USA_Cars/static/media/Ellipse.4e5494b068db1a97f883.png",
     "index.html": "/USA_Cars/index.html",
-    "main.430d5786.css.map": "/USA_Cars/static/css/main.430d5786.css.map",
-    "main.f442e089.js.map": "/USA_Cars/static/js/main.f442e089.js.map",
+    "main.521ee7e9.css.map": "/USA_Cars/static/css/main.521ee7e9.css.map",
+    "main.951aa01f.js.map": "/USA_Cars/static/js/main.951aa01f.js.map",
     "787.121a0e85.chunk.js.map": "/USA_Cars/static/js/787.121a0e85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.430d5786.css",
-    "static/js/main.f442e089.js"
+    "static/css/main.521ee7e9.css",
+    "static/js/main.951aa01f.js"
   ]
 }
