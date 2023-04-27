@@ -1,0 +1,76 @@
+.auctionsContainer {
+  height: 352px;
+  background-image: url("../../../common/img/auctions/ChevroletAuction.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  @media screen and (max-width: 420px) {
+    height: 608px;
+  }
+  @media screen and (max-width: 1000px) {
+    height: 386px;
+  }
+  .title {
+    margin-top: 4.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & :nth-child(2) {
+      margin: 0 10px;
+      @media screen and (max-width: 420px) {
+        margin-top: 45px;
+      }
+    }
+
+    & span {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #333333;
+    }
+
+    .line {
+      width: 80px;
+      height: 6px;
+      background: #F62C2F;
+    }
+  }
+
+  .item {
+    margin: 3.5% 0 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    max-width: 1180px;
+    height: 120px;
+    background: #FFEDED;
+    border: 1px solid #FFD3D3;
+    box-shadow: 0 25px 45px 1px rgba(224, 92, 92, 0.2);
+    @media screen and (max-width: 420px) {
+      flex-wrap: wrap;
+      height: 240px;
+      width: 97vw;
+      margin: 8px 0 0 7px;
+    }
+
+    & span {
+      display: inline-block;
+      width: 249px;
+      height: 38px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: #000000;
+      @media screen and (max-width: 420px) {
+        padding: 5px;
+      }
+    }
+  }
+}

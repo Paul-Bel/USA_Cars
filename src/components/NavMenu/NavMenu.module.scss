@@ -1,0 +1,170 @@
+.headerLink {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  height: 23px;
+  @media screen and (max-width: 1080px) {
+    width: 55%;
+  }
+  @media screen and (max-width: 900px) {
+    width: 65%;
+  }
+  .findCar {
+    display: none;
+    @media screen and (max-width: 720px) {
+      display: inline-block;
+      width: 320px !important;
+      height: 42px;
+      background-color: #333333;
+      left: 67px;
+      top: 349px;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      margin-top: 19px;
+      margin-left: 17px;
+      @media screen and (max-width: 720px) {
+        width: 90%;
+      }
+      @media screen and (max-width: 420px) {
+        width: 68%;
+      }
+      &:hover {
+        background-color: #3f4444;
+        border-color: white;
+      }
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    position: absolute;
+    z-index: 4;
+    height: 100vh;
+    width: 100vh;
+    background-color: #FFFFFF;
+    top: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .headerText {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #333333;
+    opacity: 0.6;
+    @media screen and (max-width: 720px) {
+      background-image: url("../../common/img/menu/arrowMenu.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      width: 80vw;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+      margin: 0 0 0 16px;
+      border-bottom: 1px solid #EFEFEF;
+      border-top: 1px solid #EFEFEF;
+      height: 60px;
+      display: flex;
+      align-items: center;
+    }
+
+  }
+
+  @media screen and (max-width: 720px) {
+    justify-content: flex-start;
+  }
+
+  .callBack {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+    margin: 0 0 0 0;
+    //border-bottom: 1px solid #EFEFEF;
+    //border-top: 1px solid #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    text-decoration: none;
+    height: 18px;
+    flex-direction: column;
+    @media screen and (max-width: 720px) {
+      margin: 0 0 0 0;
+      border-bottom: 1px solid #EFEFEF;
+      border-top: 1px solid #EFEFEF;
+      height: 60px;
+      display: flex;
+      align-items: center;
+    }
+
+    .contacts {
+      display: flex;
+
+      .icon {
+        margin: 0 9px 0 0;
+      }
+
+      .phoneText {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: right;
+        color: #333333;
+
+        @media screen and (max-width: 720px) {
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 21px;
+          text-align: right;
+          color: #333333;
+        }
+
+      }
+    }
+
+    .aboutCallBack {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      color: #F62C2F;
+      margin-left: 40px;
+      @media screen and (max-width: 720px) {
+        display: none;
+      }
+    }
+  }
+
+  .activeNav {
+    border-bottom: 4px solid #F62C2F;
+    margin: 0 0 3px 0;
+    @media screen and (max-width: 720px) {
+      border-bottom: 4px #FFFFFF;
+      margin: 0 0 0 16px;
+      border-bottom: 1px solid #EFEFEF;
+      border-top: 1px solid #EFEFEF;
+    }
+  }
+}

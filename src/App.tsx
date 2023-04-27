@@ -3,7 +3,7 @@ import {MainPage} from "./pages/Main/MainPage";
 import {Route, Routes} from "react-router-dom";
 
 import './App.css';
-import {Contacts} from "./pages/Contacts/Contacts";
+import {Contacts} from "./pages/contactsPages/Contacts/Contacts";
 
 function App() {
     return (

@@ -1,0 +1,86 @@
+.container {
+  min-height: 754px;
+  background: #F5F5F5;
+  background-image: url("../../../common/img/cars/Porche.png");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+
+  @media screen and (max-width: 950px) {
+    background-size: 30%;
+  }
+  @media screen and (max-width: 790px) {
+    height: 820px;
+    background-size: 30%;
+  }
+  @media screen and (max-width: 620px) {
+    height: 728px;
+    background-image: none;
+  }
+  @media screen and (max-width: 450px) {
+    height: 750px;
+  }
+  @media screen and (max-width: 420px) {
+    height: 760px;
+    background-image: none;
+  }
+  .title {
+    margin-top: 4.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & :nth-child(2) {
+      margin: 0 10px;
+    }
+
+    & span {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #333333;
+    }
+
+    .line {
+      width: 80px;
+      height: 6px;
+      background: #F62C2F;
+    }
+  }
+
+  .questionFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & :nth-child(1) {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #323232;
+    }
+
+    .sc {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+
+      & :nth-child(1) {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(31, 31, 31, 0.7);
+      }
+
+      & a {
+        margin: 0 7px;
+      }
+    }
+  }
+}

@@ -1,12 +1,12 @@
-import {StartPage} from "../StartPage/StartPage";
-import {PopularCars} from "../PopularCars/PopularCars";
-import {CallBackPage} from "../CallBackPage/CallBackPage";
-import {AboutUs} from "../AboutUs/AboutUs";
-import {Auctions} from "../Auctions/Auctions";
-import {FAQ} from "../FAQ/FAQ";
-import {Reviews} from "../Reviews/Reviews";
-import {Subscription} from "../Subscription/Subscription";
-import {Footer} from "../Footer/Footer";
+import {StartPage} from "../firstPages/StartPage/StartPage";
+import {PopularCars} from "../firstPages/PopularCars/PopularCars";
+import {CallBackPage} from "../firstPages/CallBackPage/CallBackPage";
+import {AboutUs} from "../firstPages/AboutUs/AboutUs";
+import {Auctions} from "../firstPages/Auctions/Auctions";
+import {FAQ} from "../firstPages/FAQ/FAQ";
+import {Reviews} from "../firstPages/Reviews/Reviews";
+import {Subscription} from "../firstPages/Subscription/Subscription";
+import {Footer} from "../firstPages/Footer/Footer";
 
 import styles from "./MainPage.module.scss"
 

@@ -1,0 +1,156 @@
+.aboutUsContainer {
+  height: 868px;
+  background: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 5%;
+  @media screen and (max-width: 420px) {
+    height: 1050px;
+  }
+
+  .activeBlock {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 420px) {
+      flex-direction: column;
+    }
+
+    .aboutUs {
+      display: flex;
+      width: 40%;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 0 0 0 4%;
+      @media screen and (max-width: 420px) {
+        width: 100%;
+      }
+
+      .titleContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 42%;
+        @media screen and (max-width: 420px) {
+          width: 51.5%;
+        }
+
+        .title {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 39px;
+          color: #333333;
+        }
+
+        .line {
+          width: 80px;
+          height: 6px;
+          background: #F62C2F;
+        }
+      }
+
+      .aboutText {
+        max-width: 538px;
+        max-height: 63px;
+        @media screen and (max-width: 420px) {
+          max-width: 310px;
+        }
+      }
+    }
+
+    .videoContainer {
+      position: relative;
+      z-index: 0;
+      display: flex;
+      align-items: center;
+      width: 50%;
+      height: 378px;
+      margin-top: -4%;
+      @media screen and (max-width: 420px) {
+        min-width: 292px;
+        height: 292px;
+        margin-top: -1%;
+      }
+
+      .backgroundLeft {
+        background-image: url("../../../common/img/video/Dots.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 73px;
+        height: 141px;
+        top: 69px;
+        left: 28px;
+        z-index: 0;
+        position: absolute;
+        @media screen and (max-width: 520px) {
+          display: none;
+        }
+      }
+
+      .video {
+        width: 430px;
+        height: 269px;
+        border-radius: 6px;
+        margin: 11% 0 0 10.5%;
+        cursor: pointer;
+        @media screen and (max-width: 420px) {
+          height: 207px;
+          border-radius: 6px;
+          margin: 60% 0 0 6.5%;
+        }
+      }
+
+      .backgroundRight {
+        background-image: url("../../../common/img/video/Ellipse.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-width: 378px;
+        height: 378px;
+        position: absolute;
+        top: 28px;
+        right: 31px;
+        z-index: -1;
+        @media screen and (max-width: 420px) {
+          min-width: 289px;
+          height: 291px;
+          top: 82px;
+          right: -131px;
+        }
+      }
+    }
+  }
+
+  .descriptions {
+    background: #FFEDED;
+    border: 1px solid #FFD3D3;
+    box-shadow: 0 25px 45px 1px rgba(224, 92, 92, 0.2);
+    margin: 10% 0 0 4%;
+    max-width: 1180px;
+    @media screen and (max-width: 420px) {
+      margin-top: 29%;
+    }
+
+    .descriptionItem {
+      padding: 0 0 0 4.5%;
+      display: flex;
+      align-items: center;
+      .valueDescription {
+        min-width: 280px;
+        @media screen and (max-width: 420px) {
+          width: 280px;
+        }
+      }
+      .paragraph {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: #F62C2F;
+        margin-right: 11px;
+      }
+    }
+  }
+}
