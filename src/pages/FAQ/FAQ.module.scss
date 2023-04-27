@@ -1,15 +1,16 @@
 .container {
-  height: 754px;
+  min-height: 754px;
   background: #F5F5F5;
   background-image: url("../../common/img/cars/Porche.png");
   background-repeat: no-repeat;
   background-position-y: bottom;
-  @media screen and (max-width: 420px) {
-    height: 760px;
-    background-image: none;
+
+  @media screen and (max-width: 950px) {
+    background-size: 30%;
   }
   @media screen and (max-width: 790px) {
     height: 820px;
+    background-size: 30%;
   }
   @media screen and (max-width: 620px) {
     height: 728px;
@@ -17,6 +18,10 @@
   }
   @media screen and (max-width: 450px) {
     height: 750px;
+  }
+  @media screen and (max-width: 420px) {
+    height: 760px;
+    background-image: none;
   }
   .title {
     margin-top: 4.5%;
