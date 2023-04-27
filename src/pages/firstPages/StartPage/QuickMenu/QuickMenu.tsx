@@ -1,7 +1,7 @@
 import styles from './QuickMenu.module.scss'
 import {useState} from "react";
 
-type QuickMenuType = {name: string, id: number}
+type QuickMenuType = { name: string, id: number }
 
 const quickMenuActive: Array<QuickMenuType> = [
     {name: 'Auction', id: 1},
@@ -17,10 +17,10 @@ export const QuickMenu = () => {
 
     return (
         <div className={styles.menuContainer} >
-            {quickMenuActive.map((el, i) => {
+            {quickMenuActive.map(el => {
                 return <div
                     key={el.id}
-                    onClick={()=>changeActiveMenu(el.name) }
+                    onClick={() => changeActiveMenu(el.name)}
                     className={el.name === activeMenu
                         ? styles.menuItem + ' ' + styles.activeMenu
                         : styles.menuItem} >
