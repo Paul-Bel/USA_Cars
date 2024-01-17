@@ -1,0 +1,24 @@
+.cardContainer {
+  width: 294px;
+  height: 106px;
+  background-color: #FFFFFF;
+  margin: -0.5% 0 0 3%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 12px 44px 0 #00000014;
+
+  .img {
+    width: 24px;
+    height: 24px;
+    margin: 13px 0 0 14px;
+  }
+
+  .firstData {
+      margin: 7px 0 0 18px;
+
+  }
+
+  .secondData {
+    margin: 1px 0 0 16px;
+  }
+}
