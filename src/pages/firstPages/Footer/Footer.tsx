@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 import {navigate} from "../../../common/variablesData/nav";
 import {timeInfo} from "../../../common/variablesData/timeInfo";
 
-import {Clock} from "./Clock/Clock";
+import {Clock} from "../../../components/Clock/Clock";
 import {ButtonCall} from "../../../components/ButtonCall/ButtonCall";
 
 import styles from './Footer.module.scss'

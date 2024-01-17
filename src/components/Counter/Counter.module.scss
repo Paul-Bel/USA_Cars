@@ -1,0 +1,21 @@
+.counterContainer {
+display: flex;
+  .count {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 10px 0 10px;
+    color: #FFFFFF;
+    //display: flex;
+    align-items: center;
+    display: flex;
+    width: 19px;
+    height: 40px;
+    @media screen and (max-width: 420px) {
+      width: 18px !important;
+      color: #FFFFFF;
+    }
+  }
+}

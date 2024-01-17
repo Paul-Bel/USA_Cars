@@ -1,0 +1,42 @@
+.clockContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .clock {
+    margin-top: 8%;
+    height: 132px;
+    display: flex;
+    justify-content: center;
+    background: rgb(65, 65, 65);
+    color: #FFFFFF;
+    align-items: center;
+
+    .clockWrap {
+      width: 236px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    & div {
+      width: 236px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      position: relative;
+
+      &::after {
+        content: " ";
+        position: absolute;
+        background: rgba(211, 211, 211, 0.6);
+        border: 1px dashed rgba(211, 211, 211, 0.6) !important;
+        width: 52px;
+        border: 1px;
+        rotate: 90deg;
+        left: -7px;
+        top: 14px;
+      }
+    }
+  }
+}

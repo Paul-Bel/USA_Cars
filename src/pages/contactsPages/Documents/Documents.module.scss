@@ -1,4 +1,6 @@
-.documents{
+.documentContainer {
+
+  .documents {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -6,4 +8,53 @@
     text-align: center;
     margin: 8% 0 0 0;
     background-color: #FFFFFF;
+
+  }
+
+  .descriptionContainer {
+    display: flex;
+    padding-top: 6.5%;
+    margin: 0 0 0 -5%;
+
+    .img {
+      position: relative;
+      width: 684px;
+      height: 323px;
+      border: 1px solid rgba(255, 211, 211, 1);
+      box-shadow: 0 25px 45px 1px rgba(224, 92, 92, 0.2);
+      background: linear-gradient(0deg, #FFEDED, #FFEDED);
+      margin-right: 1%;
+
+      .imgPaper {
+        position: absolute;
+        left: 107px;
+        rotate: -0.34deg;
+        top: -157px;
+      }
+
+    }
+
+    .descriptionsContainer {
+      max-width: 544px;
+      margin: 0 4% 0 0;
+      padding: 0 0 0 4%;
+
+      .title {
+        font-family: Montserrat, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: left;
+
+      }
+
+      .description {
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+      }
+    }
+  }
 }
