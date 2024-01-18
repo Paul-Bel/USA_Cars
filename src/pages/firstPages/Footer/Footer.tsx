@@ -47,7 +47,6 @@ export const Footer = () => {
                             city={el.city}
                             timezone={el.timezone}
                             />
-
                         )
                     })}
                 </div >

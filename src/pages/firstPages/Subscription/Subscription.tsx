@@ -3,7 +3,9 @@ import styles from './Subscription.module.scss'
 export const Subscription = () => {
 
     return (
-        <div className={styles.subscriptionContainer} >
+        <div
+            style={window.location.href.includes('Contacts') ? {marginTop: '3.5%'} : {}}
+            className={styles.subscriptionContainer} >
             <div className={styles.linkGroup} >
                 <a href="#1" className={styles.TW} target={'_blank'} > </a >
                 <a href="#1" className={styles.YT} > </a >

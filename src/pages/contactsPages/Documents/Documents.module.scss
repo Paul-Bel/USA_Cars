@@ -1,5 +1,8 @@
 .documentContainer {
-
+  .counterContainerMobile{
+    display: flex;
+    justify-content: center;
+  }
   .documents {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
@@ -8,6 +11,10 @@
     text-align: center;
     margin: 8% 0 0 0;
     background-color: #FFFFFF;
+    @media screen and (max-width: 980px) {
+      font-size: 24px;
+      margin: 14% 0 4% 0;
+    }
 
   }
 
@@ -15,6 +22,10 @@
     display: flex;
     padding-top: 6.5%;
     margin: 0 0 0 -5%;
+
+    @media screen and (max-width: 980px) {
+      flex-wrap: wrap;
+    }
 
     .img {
       position: relative;
@@ -24,21 +35,73 @@
       box-shadow: 0 25px 45px 1px rgba(224, 92, 92, 0.2);
       background: linear-gradient(0deg, #FFEDED, #FFEDED);
       margin-right: 1%;
-
+      @media screen and (max-width: 980px) {
+        margin-bottom: 6%;
+      }
+      @media screen and (max-width: 400px) {
+        margin-bottom: -1%;
+        height: 269px;
+      }
       .imgPaper {
         position: absolute;
         left: 107px;
         rotate: -0.34deg;
         top: -157px;
+        @media screen and (max-width: 1200px) {
+          left: 31px;
+          top: -140px;
+        }
+        @media screen and (max-width: 1080px) {
+          left: -3px;
+          top: -128px;
+        }
+        @media screen and (max-width: 1035px) {
+          left: -3px;
+          top: -92px;
+          width: 112%;
+        }
+        @media screen and (max-width: 980px) {
+          left: 115px;
+          top: -100px;
+          width: 70%;
+        }
+        @media screen and (max-width: 675px) {
+          left: 58px;
+          top: -85px;
+          width: 80%;
+        }
+        @media screen and (max-width: 540px) {
+          top: -83px;
+          width: 86%;
+        }
+        @media screen and (max-width: 450px) {
+          left: 7px;
+          top: -80px;
+          width: 101%;
+        }
+        @media screen and (max-width: 400px) {
+          left: 31px;
+          top: -62px;
+          width: 94%;
+        }
       }
-
     }
 
     .descriptionsContainer {
       max-width: 544px;
       margin: 0 4% 0 0;
       padding: 0 0 0 4%;
-
+      @media screen and (max-width: 980px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 24px;
+      }
+      @media screen and (max-width: 480px) {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
       .title {
         font-family: Montserrat, sans-serif;
         font-size: 24px;

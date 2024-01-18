@@ -1,0 +1,16 @@
+.RepresentativesContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 -4.5% 0;
+  .title{
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+    margin: 9% 0 2% 0;
+  }
+
+
+}

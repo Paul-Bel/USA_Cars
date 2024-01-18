@@ -11,7 +11,24 @@
     background: rgb(65, 65, 65);
     color: #FFFFFF;
     align-items: center;
-
+    @media screen and (max-width: 1080px) {
+      width: 900px;
+    }
+    @media screen and (max-width: 910px) {
+      width: 700px;
+    }
+    @media screen and (max-width: 740px) {
+      width: 500px;
+    }
+    @media screen and (max-width: 530px) {
+      width: 400px;
+    }
+    @media screen and (max-width: 440px) {
+      flex-direction: column;
+      justify-content: space-around;
+      width: 315px;
+      height: 484px;
+    }
     .clockWrap {
       width: 236px;
       display: flex;
@@ -32,10 +49,14 @@
         background: rgba(211, 211, 211, 0.6);
         border: 1px dashed rgba(211, 211, 211, 0.6) !important;
         width: 52px;
-        border: 1px;
         rotate: 90deg;
         left: -7px;
         top: 14px;
+      }
+      @media screen and (max-width: 740px) {
+        &::after {
+          display: none;
+        }
       }
     }
   }

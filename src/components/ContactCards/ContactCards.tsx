@@ -1,22 +1,26 @@
 import styles from './ContactCards.module.scss'
 
 import location from '../../common/img/contactsImg/location.png'
-import coolicon from '../../common/img/contactsImg/coolicon.png'
+import phone from '../../common/img/contactsImg/phone.png'
 import mail from '../../common/img/contactsImg/mail.png'
+
 import React from "react";
 
 type icons = {
     icon: number;
     firstContact: string
     secondContact: string
+    boxShadow?: {boxShadow: string; }
 }
 
-export const ContactCards: React.FC<icons> = ({icon, firstContact, secondContact}) => {
-    const iconImg = icon === 1 ? location : icon === 2 ? coolicon : mail
+export const ContactCards: React.FC<icons> = (
+    {icon, firstContact, secondContact, boxShadow}) => {
+    const iconImg = icon+1 === 1 ? location : icon+1 === 2 ? phone : mail
 
     return (
-
-        <div className={styles.cardContainer} >
+        <div
+            style={boxShadow ? boxShadow : {}}
+            className={styles.cardContainer} >
             <img className={styles.img}
                  src={iconImg}
                  alt="icon"

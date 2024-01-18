@@ -1,0 +1,55 @@
+.RepresentativesCardContainer {
+  @media screen and (max-width: 530px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .RepresentativeContainer {
+    display: flex;
+    width: 1080px;
+    justify-content: space-evenly;
+    @media screen and (max-width: 1080px) {
+      width: 800px;
+    }
+    @media screen and (max-width: 740px) {
+      width: 600px;
+    }
+    @media screen and (max-width: 620px) {
+      width: 500px;
+    }
+    @media screen and (max-width: 530px) {
+      width: 400px;
+    }
+    @media screen and (max-width: 530px) {
+      width: 420px;
+    }
+    @media screen and (max-width: 440px) {
+      width: 290px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5% 5px 0 0;
+    max-height: 392px;
+
+
+    @media screen and (max-width: 440px) {
+      padding: 92% 0 0 0;
+      flex-wrap: nowrap;
+      height: 500px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      &::-webkit-scrollbar {
+        width: 5px;
+        background-color: rgba(246, 44, 47, 1);
+      }
+    }
+
+  }
+}

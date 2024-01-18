@@ -19,7 +19,7 @@ export const Contacts = () => {
             <div className={styles.contactsItem} >{contactsCards.map((el, i) => {
                 return <ContactCards
                     key={i}
-                    icon={i + 1}
+                    icon={i}
                     firstContact={el.firstContacts}
                     secondContact={el.secondContacts} />
             })}
