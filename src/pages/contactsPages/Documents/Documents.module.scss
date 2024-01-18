@@ -1,8 +1,9 @@
 .documentContainer {
-  .counterContainerMobile{
+  .counterContainerMobile {
     display: flex;
     justify-content: center;
   }
+
   .documents {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
@@ -42,18 +43,19 @@
         margin-bottom: -1%;
         height: 269px;
       }
+
       .imgPaper {
         position: absolute;
-        left: 107px;
+        left: 139px;
         rotate: -0.34deg;
-        top: -157px;
+        top: -72px;
         @media screen and (max-width: 1200px) {
           left: 31px;
           top: -140px;
         }
         @media screen and (max-width: 1080px) {
-          left: -3px;
-          top: -128px;
+          left: 69px;
+          top: -66px;
         }
         @media screen and (max-width: 1035px) {
           left: -3px;
@@ -61,28 +63,28 @@
           width: 112%;
         }
         @media screen and (max-width: 980px) {
-          left: 115px;
-          top: -100px;
-          width: 70%;
+          left: 194px;
+          top: -34px;
+          width: 49%;
         }
         @media screen and (max-width: 675px) {
-          left: 58px;
-          top: -85px;
-          width: 80%;
+          left: 138px;
+          top: -16px;
+          width: 54%
         }
         @media screen and (max-width: 540px) {
-          top: -83px;
-          width: 86%;
+          top: -22px;
+          width: 70%;
         }
         @media screen and (max-width: 450px) {
-          left: 7px;
-          top: -80px;
-          width: 101%;
+          left: 59px;
+          top: -21px;
+          width: 75%;
         }
         @media screen and (max-width: 400px) {
-          left: 31px;
-          top: -62px;
-          width: 94%;
+          left: 61px;
+          top: -17px;
+          width: 69%;
         }
       }
     }
@@ -102,6 +104,7 @@
         justify-content: flex-start;
         flex-wrap: wrap;
       }
+
       .title {
         font-family: Montserrat, sans-serif;
         font-size: 24px;
