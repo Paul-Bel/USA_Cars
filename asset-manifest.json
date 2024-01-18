@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/USA_Cars/static/css/main.01dc170b.css",
-    "main.js": "/USA_Cars/static/js/main.951aa01f.js",
+    "main.css": "/USA_Cars/static/css/main.86b72993.css",
+    "main.js": "/USA_Cars/static/js/main.2645bf03.js",
     "static/js/787.121a0e85.chunk.js": "/USA_Cars/static/js/787.121a0e85.chunk.js",
     "static/media/8.png": "/USA_Cars/static/media/8.024c2c35560c610fcdb6.png",
     "static/media/reviewsBottom.png": "/USA_Cars/static/media/reviewsBottom.f8f8fd2ee22eda6d496f.png",
@@ -10,6 +10,7 @@
     "static/media/1.png": "/USA_Cars/static/media/1.27822291e7c96fa2223e.png",
     "static/media/Rectangle.png": "/USA_Cars/static/media/Rectangle.3cbf4a1a6bd7a6f8b7c1.png",
     "static/media/5.png": "/USA_Cars/static/media/5.f47850031060f73ce03f.png",
+    "static/media/paper-mockup.png": "/USA_Cars/static/media/paper-mockup.b0c6df250b37644c4240.png",
     "static/media/Reviews2.png": "/USA_Cars/static/media/Reviews2.df0c649fec77b6535ac1.png",
     "static/media/Reviews1.png": "/USA_Cars/static/media/Reviews1.8081d2654b45578658b9.png",
     "static/media/Reviews3.png": "/USA_Cars/static/media/Reviews3.d3a01290579b19c7f71d.png",
@@ -23,12 +24,12 @@
     "static/media/ChevroletAuction.png": "/USA_Cars/static/media/ChevroletAuction.376f30fec379c6bfc653.png",
     "static/media/Ellipse.png": "/USA_Cars/static/media/Ellipse.4e5494b068db1a97f883.png",
     "index.html": "/USA_Cars/index.html",
-    "main.01dc170b.css.map": "/USA_Cars/static/css/main.01dc170b.css.map",
-    "main.951aa01f.js.map": "/USA_Cars/static/js/main.951aa01f.js.map",
+    "main.86b72993.css.map": "/USA_Cars/static/css/main.86b72993.css.map",
+    "main.2645bf03.js.map": "/USA_Cars/static/js/main.2645bf03.js.map",
     "787.121a0e85.chunk.js.map": "/USA_Cars/static/js/787.121a0e85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01dc170b.css",
-    "static/js/main.951aa01f.js"
+    "static/css/main.86b72993.css",
+    "static/js/main.2645bf03.js"
   ]
 }
